@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Cala</string>
+    <string name="final_income">最终收益</string>
+    <string name="yield">收益率</string>
+    <string name="fixed_investment">定投</string>
+    <string name="principal">本金</string>
+    <string name="principal_unit">元</string>
+    <string name="hint_principal">请输入本金</string>
+    <string name="yield_rate">年化收益率</string>
+    <string name="hint_yield_rate">年化收益率</string>
+    <string name="yield_uint">%</string>
+    <string name="year_investment">投资年限</string>
+    <string name="year_investment_unit">年</string>
+    <string name="btn_calc">计算</string>
+    <string name="btn_clear">清空</string>
+    <string name="store_month">每月存入</string>
+    <string name="investment_income">投资收益</string>
+    <string name="total_yield_rate">总收益率</string>
+    <string name="year_investment_hold">持有年限</string>
+    <string name="price_in">买入价格</string>
+    <string name="price_out">卖出价格</string>
+    <string name="hint">密码显示</string>
+    <!-- Title of the demo displaying pop-up pickers. [CHAR LIMIT=40] -->
+    <string name="cat_picker_demo_title">Pickers</string>
+    <!-- Description of what pickers are used for in applications. [CHAR LIMIT=NONE] -->
+    <string name="cat_picker_description">Pickers allow users to choose dates and times.</string>
+    <!-- Button label that indicates clicking the button
+    will launch a Material Date Picker [CHAR LIMIT=120] -->
+    <string name="cat_picker_launch">Launch Material Date Picker</string>
+
+    <!-- Informs that the user clicked the cancel button [CHAR LIMIT=120]-->
+    <string name="cat_picker_user_clicked_cancel">The user clicked the cancel button.</string>
+    <!-- Informs that the picker was cancelled [CHAR LIMIT=120]-->
+    <string name="cat_picker_cancel">The picker was cancelled.</string>
+    <!-- Informs that the user action is being awaited [CHAR LIMIT=120] -->
+    <string name="cat_picker_no_action">Awaiting user action.</string>
+
+    <!-- Grouping label for a set of radio buttons that choose the selection mode [CHAR LIMIT=45] -->
+    <string name="cat_picker_date_selector">Selection Mode</string>
+    <!-- Indicates that the selection mode is a single date [CHAR LIMIT=80] -->
+    <string name="cat_picker_date_selector_single">Single Date</string>
+    <!-- Indicates that the selection mode is a date range [CHAR LIMIT=80] -->
+    <string name="cat_picker_date_selector_range">Date Range</string>
+
+    <!-- Grouping label for a set of radio buttons that choose the visual theme [CHAR LIMIT=50] -->
+    <string name="cat_picker_theme">Theme</string>
+    <!-- Indicates that the default theme will be used [CHAR LIMIT=25] -->
+    <string name="cat_picker_theme_default">Default</string>
+    <!-- Indicates that the dialog theme will be used [CHAR LIMIT=25] -->
+    <string name="cat_picker_theme_dialog">Dialog</string>
+    <!-- Indicates that the fullscreen theme will be used [CHAR LIMIT=25] -->
+    <string name="cat_picker_theme_fullscreen">Fullscreen</string>
+
+    <!-- Grouping label for a set of radio buttons that
+    choose the allowed calendar bounds [CHAR LIMIT=50] -->
+    <string name="cat_picker_bounds">Bounds</string>
+    <!-- Indicates that the default bounds will be used [CHAR LIMIT=25] -->
+    <string name="cat_picker_bounds_default">Default</string>
+    <!-- Indicates that the bounds will be restricted to this year only [CHAR LIMIT=25] -->
+    <string name="cat_picker_bounds_this_year">This year</string>
+    <!-- Indicates that the bounds will be restricted to dates within 1 year [CHAR LIMIT=25] -->
+    <string name="cat_picker_bounds_one_year_forward">Within 1 year</string>
+
+    <!-- Grouping label for a set of radio buttons that choose valid dates [CHAR LIMIT=50] -->
+    <string name="cat_picker_validation">Valid Days</string>
+    <!-- Indicates that the default valid days will be used [CHAR LIMIT=25] -->
+    <string name="cat_picker_validation_default">Default</string>
+    <!-- Indicates that only today and future days will be valid [CHAR LIMIT=25] -->
+    <string name="cat_picker_validation_today_onward">Today onward</string>
+    <!-- Indicates that only weekdays will be valid [CHAR LIMIT=25] -->
+    <string name="cat_picker_validation_weekdays">Weekdays</string>
+    <!-- Indicates that only the last 2 weeks will be valid [CHAR LIMIT=25] -->
+    <string name="cat_picker_validation_last_two_weeks">Last 2 weeks</string>
+
+    <!-- Grouping label for a set of radio buttons that choose the title [CHAR LIMIT=50] -->
+    <string name="cat_picker_title">Picker Title</string>
+    <!-- Indicates that the default title will be used [CHAR LIMIT=25] -->
+    <string name="cat_picker_title_default">Default</string>
+    <!-- Indicates that a custom title will be used [CHAR LIMIT=25] -->
+    <string name="cat_picker_title_custom">Custom</string>
+
+    <!-- Grouping label for a set of radio buttons that choose the selection [CHAR LIMIT=50] -->
+    <string name="cat_picker_selection">Default Selection</string>
+    <!-- Indicates that the default selection will be used [CHAR LIMIT=25] -->
+    <string name="cat_picker_selection_default">Default</string>
+    <!-- Indicates that today will be used for the selection [CHAR LIMIT=25] -->
+    <string name="cat_picker_selection_today">Today</string>
+    <!-- Indicates that a day in the next month will be used for the selection [CHAR LIMIT=25] -->
+    <string name="cat_picker_selection_next_month">Next Month</string>
+
+    <!-- Grouping label for a set of radio buttons that choose the openAt month [CHAR LIMIT=50] -->
+    <string name="cat_picker_opening_month">Opening Month</string>
+    <!-- Indicates that the picker will open to the default month [CHAR LIMIT=25] -->
+    <string name="cat_picker_opening_month_default">Default</string>
+    <!-- Indicates that the picker will open to today's month [CHAR LIMIT=25] -->
+    <string name="cat_picker_opening_month_today">Today</string>
+    <!-- Indicates that the picker will open to next month [CHAR LIMIT=25] -->
+    <string name="cat_picker_opening_month_next">Next Month</string>
+
+    <!-- Grouping label for a set of radio buttons that choose the input mode [CHAR LIMIT=50] -->
+    <string name="cat_picker_input_mode">Input Mode</string>
+    <!-- Indicates that the picker will start with calendar mode [CHAR LIMIT=25] -->
+    <string name="cat_picker_input_mode_calendar">Calendar</string>
+    <!-- Indicates that the picker will start with text input mode [CHAR LIMIT=25] -->
+    <string name="cat_picker_input_mode_text">Text Input</string>
+    <string name="date_pickup">日期选择</string>
+    <string name="start_time">开始时间</string>
+    <string name="date_hint">2020-07-01</string>
+    <string name="btn_search">检索</string>
+    <string name="btn_reset">重置</string>
+    <string name="cart_cultured">CART培养</string>
+    <string name="cell_number">001</string>
+    <string name="cell_name">CART</string>
+    <string name="filled_hint">填充Hint</string>
+    <string name="filled_start">起始描述</string>
+    <string name="filled_end">结束</string>
+    <string name="filled_hint_password">填充型密码</string>
+    <string name="clear_text">清除文本</string>
+    <string name="hint_password">密码</string>
+    <string name="filled_custom">自定义</string>
+    <string name="filled_end_custom">自定义结尾描述</string>
+    <string name="filled_dropdown_menu">下拉菜单</string>
+    <string name="helper">帮助程序文本添加到文本字段</string>
+    <string name="helper_text">帮助显示文本</string>
+</resources>

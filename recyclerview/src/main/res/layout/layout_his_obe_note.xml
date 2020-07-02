@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/title_bg">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_chevron_left_black_24dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/topic_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFF8FCFF"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="细胞名称："
+                    android:textSize="14sp"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:textColor="#FF000000"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    android:hint="CAR-T"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:textColor="#FF000000"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical|start"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="批号/编号："
+                    android:textSize="14sp"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:textColor="#FF000000"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    android:hint="001"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:textColor="#FF000000"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical|start"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tb_history_oberver_note"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/color_tablayout_indicator"
+            app:tabIndicatorHeight="2dp"
+            app:tabMaxWidth="140dp"
+            app:tabMinWidth="80dp"
+            app:tabRippleColor="@android:color/transparent"
+            app:tabSelectedTextColor="@color/color_tablayout_indicator"
+            app:tabTextAppearance="@style/textAppearanceTab"
+            app:tabTextColor="@color/color_tablayout_text">
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#FFCACACA" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp_history_observer_note"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="16dp">
+
+        </androidx.viewpager.widget.ViewPager>
+    </LinearLayout>
+
+</LinearLayout>

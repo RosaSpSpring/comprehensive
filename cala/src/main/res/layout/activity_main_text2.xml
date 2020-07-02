@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filled_password"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"
+
+        app:startIconTint="@color/colorPrimary"
+        app:startIconCheckable="true"
+        app:startIconContentDescription="@string/filled_start"
+        app:startIconDrawable="@drawable/ic_stars_black_24dp"
+        app:startIconTintMode="src_in"
+
+
+        app:endIconContentDescription="@string/filled_end"
+        app:endIconCheckable="true"
+        app:endIconTintMode="src_in"
+        app:endIconTint="@color/color_tablayout_indicator"
+
+
+
+
+
+
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filled_clear"
+        android:hint="@string/clear_text"
+        app:endIconMode="clear_text"
+        app:endIconContentDescription="@string/filled_end"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        app:startIconDrawable="@drawable/ic_stars_black_24dp"
+        app:startIconCheckable="true"
+        app:startIconContentDescription="@string/filled_start"
+        app:startIconTint="@color/colorPrimary"
+        app:startIconTintMode="src_in"
+
+
+        app:endIconDrawable="@drawable/ic_clear_all_black_24dp"
+        app:endIconCheckable="true"
+        app:endIconTintMode="src_in"
+        app:endIconTint="@color/color_tablayout_indicator"
+
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filled_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/filled_custom"
+
+        app:startIconDrawable="@drawable/ic_stars_black_24dp"
+        app:startIconCheckable="true"
+        app:startIconContentDescription="@string/filled_start"
+        app:startIconTint="@color/colorPrimary"
+        app:startIconTintMode="src_in"
+
+
+        app:endIconDrawable="@drawable/ic_star_black_24dp"
+        app:endIconCheckable="true"
+        app:endIconTintMode="src_in"
+        app:endIconTint="@color/color_tablayout_indicator"
+        app:endIconMode="clear_text"
+        app:endIconContentDescription="@string/filled_end_custom"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filled_dropdown_menu"
+        android:hint="@string/filled_dropdown_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        app:startIconDrawable="@drawable/ic_heart_black_24dp"
+        app:startIconCheckable="true"
+        app:startIconContentDescription="@string/filled_start"
+        app:startIconTint="@color/colorPrimary"
+        app:startIconTintMode="src_in"
+
+        app:endIconMode="dropdown_menu"
+        app:endIconContentDescription="@string/filled_end"
+        app:endIconDrawable="@drawable/ic_clear_all_black_24dp"
+        app:endIconCheckable="true"
+        app:endIconTintMode="src_in"
+        app:endIconTint="@color/color_tablayout_indicator"
+
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+
+        >
+        <AutoCompleteTextView
+            android:id="@+id/drop_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            tools:ignore="LabelFor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filled_helper"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/helper"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        app:startIconDrawable="@drawable/ic_stars_black_24dp"
+        app:startIconCheckable="true"
+        app:startIconContentDescription="@string/filled_start"
+        app:startIconTint="@color/colorPrimary"
+        app:startIconTintMode="src_in"
+
+        app:helperTextEnabled="true"
+        app:helperText="@string/helper_text"
+        app:helperTextTextColor="@color/color_blue"
+
+
+        app:endIconDrawable="@drawable/clear_selector"
+        app:endIconCheckable="true"
+        app:endIconTintMode="src_in"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/color_tablayout_indicator"
+        app:endIconContentDescription="@string/filled_end_custom"
+
+
+
+
+
+
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

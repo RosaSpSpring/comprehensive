@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item >
+        <shape >
+            <solid android:color="#FFCACACA"/> <!--边框颜色-->
+        </shape>
+    </item>
+    <item android:top="3dp">
+        <shape>
+            <solid android:color="#FFFFFFFF"/>  <!--整个背景框的颜色-->
+        </shape>
+    </item>
+
+
+</layer-list>

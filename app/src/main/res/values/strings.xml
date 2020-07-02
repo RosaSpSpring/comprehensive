@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ble</string>
+    <string name="string_index_of">test|string|index|of</string>
+    <string name="string_separator">|</string>
+    <string name="format">%.1f km | %d kcal</string>
+    <string name="format1">%.11f km | %d kcal</string>
+    <string name="arrow_left">左箭号</string>
+    <string name="single_test_hand_report_title">测手</string>
+    <string name="palpation_single_test_report_date_text">报告日期</string>
+    <string name="single_text_report_result_analysis">结果分析</string>
+    <string name="single_test_hand_report_result_analysis">测手报告结果</string>
+    <string name="single_text_report_symptom">danciceshi</string>
+    <string name="report_selected_symptom">xuanxiang</string>
+    <string name="symptom_two">ceshie</string>
+    <string name="symptom_three">ceshi3</string>
+    <string name="health_hint">jiankangtishi</string>
+    <string name="sthr_health_hint">jiankangtishi</string>
+    <string name="single_test_result_delete">shanchu</string>
+    <string name="single_test_result_share">fenxiang</string>
+</resources>

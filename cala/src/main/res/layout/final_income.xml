@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        style="@style/layout_style"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:text="@string/principal"
+            android:layout_width="100dp"
+            style="@style/text_style"
+            />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/principal"
+          style="@style/edit_style"
+            android:hint="@string/hint_principal" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="50dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/principal_unit"
+            style="@style/text_style"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout_style"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:text="@string/yield_rate"
+            android:layout_width="100dp"
+            style="@style/text_style"
+            />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/yield"
+            style="@style/edit_style"
+            android:hint="@string/hint_yield_rate" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="50dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/yield_uint"
+            style="@style/text_style"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout_style"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:text="@string/year_investment"
+            android:layout_width="100dp"
+            style="@style/text_style"
+            />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/year_investment"
+            style="@style/edit_style"
+            android:hint="@string/year_investment" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="50dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/year_investment_unit"
+            style="@style/text_style"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout_style"
+        android:gravity="center_vertical|center"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_calc"
+            android:text="@string/btn_calc"
+            android:background="@color/color_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/color_white"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/btn_clear"
+            android:textColor="@color/color_white"
+            android:background="@color/color_orange"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout_style"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:text="@string/final_income"
+            android:layout_width="100dp"
+            style="@style/text_style"
+            />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/final_income"
+            style="@style/edit_style"
+            android:hint="@string/final_income" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="50dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/principal_unit"
+            style="@style/text_style"/>
+
+    </LinearLayout>
+    <!--<com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:text="@string/hint"
+            android:background="@null"
+            />
+    </com.google.android.material.textfield.TextInputLayout>-->
+
+</LinearLayout>

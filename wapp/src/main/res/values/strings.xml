@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WorkCellSystem</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="history_image">历史图片</string>
+    <string name="title_activity_actionbar_layout">actionbar_layout</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="date_pickup">日期选择</string>
+    <string name="start_time">开始时间</string>
+    <string name="date_hint">2020–07–01</string>
+    <string name="btn_search">检索</string>
+    <string name="btn_reset">重置</string>
+    <string name="cart_cultured">CART培养</string>
+    <string name="cell_number">001</string>
+    <string name="cell_name">CART</string>
+</resources>

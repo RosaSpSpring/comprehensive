@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="color_tablayout_text">#FF6F6F6F</color>
+    <color name="color_tablayout_text_border">#FF5F5F5F</color>
+    <color name="color_tablayout_indicator">#FFEB7C0F</color>
+    <color name="white">#ffffff</color>
+    <color name="color_hint">#FF6C6C6C</color>
+    <color name="color_theme">#FF1876A8</color>
+    <color name="cancel">#FFF8B16B</color>
+    <color name="submit">#FF50A9D7</color>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/layout_style"
+        android:layout_marginTop="20dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_style"
+            android:layout_width="100dp"
+            android:text="@string/year_investment" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/year_investment"
+            style="@style/edit_style"
+            android:hint="@string/year_investment" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_style"
+            android:layout_width="50dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/year_investment_unit" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/layout_style">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_style"
+            android:layout_width="100dp"
+            android:text="@string/yield_rate" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/yield"
+            style="@style/edit_style"
+            android:hint="@string/hint_yield_rate" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_style"
+            android:layout_width="50dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/yield_uint" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/layout_style">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_style"
+            android:layout_width="100dp"
+            android:text="@string/store_month" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/store_month"
+            style="@style/edit_style"
+            android:hint="@string/store_month" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_style"
+            android:layout_width="50dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/principal_unit" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/layout_style">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_style"
+            android:layout_width="100dp"
+            android:text="@string/investment_income" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/final_income"
+            style="@style/edit_style"
+            android:hint="@string/final_income" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/text_style"
+            android:layout_width="50dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/principal_unit" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout_style"
+        android:gravity="center_vertical|center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_calc"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@color/color_blue"
+            android:text="@string/btn_calc"
+            android:textColor="@color/color_white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:background="@color/color_orange"
+            android:text="@string/btn_clear"
+            android:textColor="@color/color_white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

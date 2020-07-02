@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_obs_not_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/history_image" />
+    <TextView
+        android:id="@+id/tv_obs_not_item"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:hint="2020/05/07 11:10"
+        android:textColorHint="#ffffff"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#FF4F9CD3"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

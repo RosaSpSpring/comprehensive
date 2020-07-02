@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--viewpager style-->
+    <style name="textAppearanceTab" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!--&lt;!&ndash;noActionBar&ndash;&gt;
+    <style name="CustomNoActioBar">
+        <item name=""
+    </style>-->
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <!-- text style-->
+  <style name="text_style">
+      <item name="android:gravity">center_vertical</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:textColor">@color/color_ttf</item>
+      <item name="android:textSize">14sp</item>
+      <item name="android:cursorVisible">true</item>
+      <item name="android:textCursorDrawable">@color/color_light_bg</item>
+
+
+  </style>
+    <style name="layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+    <!-- edit text style-->
+<style name="edit_style">
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/color_ttf</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:cursorVisible">true</item>
+    <item name="android:textCursorDrawable">@color/color_light_bg</item>
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:paddingStart">10dp</item>
+    <item name="android:paddingEnd">10dp</item>
+    <item name="android:background">@color/color_white</item>
+    <item name="android:inputType">numberDecimal</item>
+    <item name="android:singleLine">true</item>
+</style>
+
+    <!--btn style-->
+    <style name="btn_style_clear">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:text">@string/btn_clear</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@color/color_orange</item>
+    </style>
+    <!--btn_style_calc-->
+    <style name="btn_style_calc">
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/color_blue"
+        android:text="@string/btn_calc"
+        android:textColor="@color/color_white"
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:text">@string/btn_clear</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@color/color_orange</item>
+    </style>
+    <!--search_cell custom_edit_text style-->
+    <style name="search_cell_custom_edit_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColorHint">@color/color_hint</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/et_search_bg</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+</resources>
