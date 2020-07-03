@@ -24,6 +24,8 @@
         app:endIconCheckable="true"
         app:endIconTintMode="src_in"
         app:endIconTint="@color/color_tablayout_indicator"
+        app:endIconMode="password_toggle"
+        app:endIconDrawable="@drawable/password_drawable_selector"
 
 
 
